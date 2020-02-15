@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Product app</title>
+  <!--código de boostrap way-->
+     <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+
+     <link rel="stylesheet" href="estilosadiocionales.css">
+   
+  
+</head>
+
+
+<body>
+
+  <!--esta es la navegación-->
+<nav class="navbar navbar-light bg-light ">
+<a class="navbar-brand" href="#"> Products App </a>
+</nav>
+<div class="container">
+<!--esta es la aplicación-->
+
+<div id=App class="row pt-5">
+  
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-header">
+            <h4>Add a Product</h4>
+
+
+          </div>
+          
+            <form id="product-form" class="card-body" >
+              <div class="form-group">
+
+                <div class="cajasdetexto">
+                    <input type="text" id="name" placeholder="Product name"
+                    class="form-control">
+    
+
+
+                </div>
+                
+                
+
+              </div>
+              <div class="cajasdetexto">
+                  <input type="number" step="0.01" id="price" placeholder="Product price"
+                  class="form-control" class="margin-top: 10px">
+  
+
+
+              </div>
+
+              <div class="cajasdetexto">
+
+                  <input type="number"  id="year" placeholder="Year Product"
+                  class="form-control" value="2020" min="1900" max="2090" >
+  
+              </div>
+
+              <div class="cajasdetexto" >
+                <div class="botonsaved">
+                    <input type="submit" value="Save" class="btn btn-primary btn-block" >
+
+
+                </div>
+                  
+              </div>
+
+              
+
+            </form>
+
+
+        </div>
+
+    
+      </div>
+
+     
+        
+        <div id="product-list" class="col-md-8"></div>
+
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
+
+
+
+
