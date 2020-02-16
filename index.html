@@ -1,110 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Product app</title>
   <!--código de boostrap way-->
-     <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+  <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
 
-     <link rel="stylesheet" href="estilosadiocionales.css">
-   
-  
+  <link rel="stylesheet" href="estilosadiocionales.css">
+
+
 </head>
 
 
 <body>
 
   <!--esta es la navegación-->
-<nav class="navbar navbar-light bg-light ">
-<a class="navbar-brand" href="#"> JP PRODUCSTS </a>
-</nav>
-<div class="container">
-<!--esta es la aplicación-->
+  <nav class="navbar navbar-light bg-light ">
+    <a class="navbar-brand" href="#"> FORMATO DE HOJA DE VIDA </a>
+  </nav>
+  <div class="container">
+    <!--esta es la aplicación-->
 
-<div>
-  
-      <div >
+    <div>
+
+      <div>
         <div class="card">
           <div class="card-header">
-            <h4 id="titulo">Formato de Hoja de vida</h4>
+            <h4 id="titulo">DATOS PERSONALES</h4>
 
 
           </div>
 
-          <div class="col-md-6">
-            <form id="product-form" class="card-body" >
+          <div class="col-md-4">
+            <form id="product-form" class="card-body">
               <div class="form-group">
 
                 <div class="cajasdetexto">
-                    <input type="text" id="first-apellido" placeholder="Primer Apellido"
-                    class="form-control">
-    
-
-
+                  <input type="text" id="first-apellido" placeholder="Primer Apellido" class="form-control">
                 </div>
-                
-
-
               </div>
               <div class="cajasdetexto">
-                  <input type="text" step="0.01" id="second-apellido" placeholder="Product price"
-                  class="form-control" class="margin-top: 10px">
+                <input type="text" step="0.01" id="second-apellido" placeholder="Segundo Apellido" class="form-control"
+                  class="margin-top: 10px">
               </div>
 
               <div class="cajasdetexto">
+                <input type="text" id="nombre-completo" placeholder="Nombre Completo" class="form-control">
 
-                  <input type="number"  id="year" placeholder="Year Product"
-                  class="form-control" value="2020" min="1900" max="2090" >
-  
+              </div>
+              <!--código para intérvalo de fechas: value="2020" min="1900" max="2090"-->
+
+              <div class="radio">
+                <!-- Material unchecked -->
+                <h5>
+                  Tipo de Identificación:
+                </h5>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+                  <label class="form-check-label" for="materialUnchecked">C.C</label>
+                </div>
+
+                <!-- Material checked -->
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="materialChecked" name="materialExampleRadios"
+                    checked>
+                  <label class="form-check-label" for="materialChecked">C.E</label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="materialChecked" name="materialExampleRadios"
+                    checked>
+                  <label class="form-check-label" for="materialChecked">PAS.</label>
+                </div>
+
+
+
               </div>
 
-              <div class="cajasdetexto" >
+
+
+              <!--Este es el botón-->
+              <div class="cajasdetexto">
                 <div class="botonsaved">
-                    <input type="submit" value="Save" class="btn btn-primary btn-block" >
+                  <input type="submit" value="Save" class="btn btn-primary btn-block">
+
 
 
                 </div>
-                  
+
               </div>
 
-              
+
 
             </form>
 
 
 
           </div>
-          
-          
+
+           
+          <!--segunda columna - datos personale-->
+          <div class="col-md-4" >
+            <form class="card-body" >
+              <div class="form-group">
+                <div class="radio">
+                  <div class="form-check">
+                    <input type="radio" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+                    <label class="form-check-label" for="materialUnchecked">M</label>
+                  </div>
+  
+                  <!-- Material checked -->
+                  <div class="form-check">
+                    <input type="radio" class="form-check-input" id="materialChecked" name="materialExampleRadios"
+                      checked>
+                    <label class="form-check-label" for="materialChecked">C.E</label>
+                  </div>
+                 
+                </div>
+
+                
+
+
+
+
+
+              </div>
+
+
+
+
+            </form>
+
+
+          </div>
+
+
 
 
         </div>
 
-    
+
       </div>
 
-     
-        
-        <div id="product-list" class="col-md-8"></div>
+
+
+      <div id="product-list" class="col-md-8"></div>
 
 
 
 
 
 
-</div>
+    </div>
 
 
 
 
-</div>
+  </div>
+  <!--Scripts-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
-<script src="app.js"></script>
+  <script src="app.js"></script>
 </body>
+
 </html>
-
-
-
-

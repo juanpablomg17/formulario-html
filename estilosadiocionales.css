@@ -13,13 +13,20 @@ input{
   margin-top: 15px;
   
   border: 1px solid steelblue;
+  width: 350px;
+  
+}
+.radio{
+  margin-top: 10px;
+
   
 }
 
-#titulo{
-  text-align: center;
-}
+.card-header{
 
+  text-align: center;
+  background-color: steelblue;
+}
 
 
 
