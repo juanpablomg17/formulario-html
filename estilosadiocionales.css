@@ -5,7 +5,7 @@
   margin-top: 15px;
   
   border: 1px solid steelblue;
-  width: 350px;
+  width: 250px;
   
 } 
 
@@ -13,6 +13,10 @@
   margin-top: 10px;
 
   
+}
+h5{
+  width: 400px;
+  text-align: left;
 }
 
 
@@ -23,18 +27,23 @@
   background-color: steelblue;
 }
 
-
-#datos-personales1{
-
-width: 400px;
+#tipo_id{
+  text-align: center;
 }
-#datos-personales2{
-  float: right;
+#datos-p-2{
+  float: left;
+}
 
+.col-md-3{
+
+  float: left;
+  padding: auto 10px;
+  
 }
-#hola{
-  float: right;
-}
+
+
+
+
 
 
 
