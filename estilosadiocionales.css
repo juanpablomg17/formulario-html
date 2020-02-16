@@ -40,6 +40,21 @@ h5{
   padding: auto 10px;
   
 }
+.cajas{
+  border: 1px solid steelblue;
+  width: 500px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+
+
+
+}
+
+.card{
+
+  width: 100%;
+}
 
 
 
