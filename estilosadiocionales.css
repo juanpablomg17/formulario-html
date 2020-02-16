@@ -1,11 +1,3 @@
-input{
-
-  
-
-}
-
-
-
 
 
 .cajasdetexto{
@@ -15,17 +7,33 @@ input{
   border: 1px solid steelblue;
   width: 350px;
   
-}
+} 
+
 .radio{
   margin-top: 10px;
 
   
 }
 
+
+
 .card-header{
 
   text-align: center;
   background-color: steelblue;
+}
+
+
+#datos-personales1{
+
+width: 400px;
+}
+#datos-personales2{
+  float: right;
+
+}
+#hola{
+  float: right;
 }
 
 
