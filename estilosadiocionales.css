@@ -1,6 +1,26 @@
+input{
+
+  
+
+}
+
+
+
+
+
 .cajasdetexto{
 
   margin-top: 15px;
+  
+  border: 1px solid steelblue;
+  
 }
+
+#titulo{
+  text-align: center;
+}
+
+
+
 
 
