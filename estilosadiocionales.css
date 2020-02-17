@@ -1,4 +1,14 @@
 
+body{
+  
+}
+
+p{
+  font-size: 15px;
+
+
+}
+
 
 .cajasdetexto{
 
@@ -16,6 +26,8 @@
 
 
 }
+
+
 
 
 
@@ -81,7 +93,13 @@ h5{
 #card-css2{
   margin-top: 45px;
   border: 3px solid slategrey;
+  
 
+}
+
+#body2{
+  padding-left:  40px;
+  padding-right: 40px;
 }
 
 
@@ -91,6 +109,36 @@ h5{
   width: 100%;
   
 }
+
+table{
+
+  padding: 15px;
+  width: 100%;
+  height: 50%
+  
+  
+  }
+  td {
+    text-align: left;
+    width: 15px;
+    
+  }
+   th, td{
+  
+    padding: 15px;
+    text-align: center;
+    border: 1px solid black;
+  }
+   th {
+    background: cadetblue;
+  }
+  #titulo-tabla{
+    text-align: center;
+  }
+
+
+  
+  
 
 
 
