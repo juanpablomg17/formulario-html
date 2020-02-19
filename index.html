@@ -5,11 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Product app</title>
+  <title>Formato de Hoja de vida</title>
+  <link rel="stylesheet" href="estilosadiocionales.css">
   <!--código de boostrap way-->
   <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
 
-  <link rel="stylesheet" href="estilosadiocionales.css">
+
   <!--Código pro de boostrap: -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -33,7 +34,7 @@
       <div>
         <!--Tarjeta 1: Datos personales-->
         <div class="card" id="card-css">
-          <div class="card-header" id="titulo">
+          <div class="card-header" id="titulo1">
             <h4>DATOS PERSONALES</h4>
 
 
@@ -348,87 +349,144 @@
 
         <!--Tarjeta 2: Formación académica-->
         <div class="card" id="card-css2">
-          <div class="card-header">
+          <div class="card-header " id="titulo2">
             <h4>FORMACIÓN ACADÉMICA</h4>
 
 
           </div>
-          <!--Fila 1-->
+
           <div class="row">
             <div class="card-body" id="body2">
+              <table id="tabla-educacion">
+                <!--Fila 1-->
+                <tr id="fila1">
+                  <td>
+                    <div>
+                      <h6>EDUCACIÓN BÁSICA Y MEDIA</h6>
+                      <p>MARQUE CON UNA X EL ÚLTIMO GRADO APROBADO ( LOS GRADOS DE 1o. A 6o. DE BACHILLERATO EQUIVALEN A
+                        LOS
+                        GRADOS 6o. A 11o. DE
+                        EDUCACIÓN BÁSICA SECUNDARIA Y MEDIA</p>
+                    </div>
+                    <table id="niveles-educacion">
+                      <div class="card-group" class="egt">
 
-              <div>
-                <h6>EDUCACIÓN BÁSICA Y MEDIA</h6>
-                <p>MARQUE CON UNA X EL ÚLTIMO GRADO APROBADO ( LOS GRADOS DE 1o. A 6o. DE BACHILLERATO EQUIVALEN A LOS
-                  GRADOS 6o. A 11o. DE
-                  EDUCACIÓN BÁSICA SECUNDARIA Y MEDIA</p>
+                        <tr id="titulo-tabla">
+                          <th colspan=11>Educación Básica</th>
+                          <th colspan=1>Título Obtenido</th>
+                        </tr>
+
+                        <tr>
+                          <td class="celda" colspan="5">Primaria </td>
+                          <td class="celda" colspan="4">Secundaria </td>
+                          <td class="celda" colspan="2"> Media</td>
+                          <td class="celda" colspan="6"> Fecha de grado</td>
+
+                        </tr>
+                        <tr>
+                          <td class="celda">1o.</td>
+                          <td class="celda">2o.</td>
+                          <td class="celda">3o.</td>
+                          <td class="celda">4o.</td>
+                          <td class="celda">5o.</td>
+
+                          <td class="celda">6o.</td>
+                          <td class="celda">7o.</td>
+                          <td class="celda">8o.</td>
+                          <td class="celda">9o.</td>
+
+                          <td class="celda">10o.</td>
+                          <td class="celda">11o.</td>
+
+                          <td>
+                            <input type="date" name="fecha-nacimiento" step="1" max="2002-01-01" min="1958-01-01"
+                              value="2013-0">
+                          </td>
+                        </tr>
+                    </table>
 
 
-
-              </div>
-
-              <table>
-                <div class="card-group" class="egt">
-
-                  <tr id="titulo-tabla">
-                    <th colspan="6">Educación Básica</th>
-                    <th colspan="6">Título Obtenido</th>
-                  </tr>
-
-                  <tr>
-                    <th colspan="6">Primaria </th>
-                    <th colspan="3">Secundaira </th>
-                    <th colspan="2"> Media</th>
-                    
-                  </tr>
-
-
-
-                  </tr>
-
-                  <tr>
-                    <td>1o.</td>
-                    <td>2o.</td>
-                    <td>3o.</td>
-                    <td>4o.</td>
-                    <td>5o.</td>
-
-                    <td>6o.</td>
-                    <td>7o.</td>
-                    <td>8o.</td>
-                    <td>9o.</td>
-
-                    <td>10o.</td>
-                    <td>11o.</td>
-                    
-                    
 
               
-                  </tr>
+
+                </td>
+
+              </tr>
+              <!--Fila 2-->
+
+              <tr>
+                <td>
+                  <div class="row">
+                    <div class="card-body" id="body3">
+                      <div>
+                        <h6>EDUCACION SUPERIOR (PREGRADO Y POSTGRADO)</h6>
+                        <p style="text-align: left;">DILIGENCIE ESTE PUNTO EN ESTRICTO ORDEN CRONOLÓGICO, EN MODALIDAD
+                          ACADÉMICA ESCRIBA:</p>
+                      </div>
+                      <p class="p-formacion-academica" >
+                        <b>TC</b> (TÉCNICA), <b>TL</b>(TECNOLÓGICA), <B>TE</B> (TECNOLÓGICA ESPECIALIZADA), <B>UN</B>
+                        (UNIVERSITARIA),
+                      </p>
+                      <p class="p-formacion-academica" >
+                        <b>ES</b> (ESPECIALIZACIÓN), <b>MG</b> (MAESTRÍA O MAGISTER), <b>DOC</b> (DOCTORADO O PHD)
+                      </p>
+                      <p class="p-formacion-academica">
+                        RELACIONE AL FRENTE EL NÚMERO DE LA TARJETA PROFESIONAL (SI ÉSTA HA SIDO PREVISTA EN UNA LEY).
+                      </p>
+                      </div>
+                      </div>
+
+                      </td>
+
+              </tr>
+              <!--Fila 3-->
+              <tr>
+                <td>
+                  <div class="row">
+                    <div class="card-body">
+                      <table id="tabla-estudios">
+                        
+                          <TR>
+                          <TH COLSPAN="2">
+                          Celda de dos columnas
+                          </TH>
+                          </TR>
+                          <TR>
+                          <TD ROWSPAN="2">
+                          Celda de dos filas
+                          </TD>
+                          <TD>
+                          Fila2,Columna2
+                          </TD>
+                          </TR>
+                          <TR>
+                          <TD>
+                          Fila3,Columna2
+                          </TD>
+                          </TR>
+                          
+                      
+                      </table>
+                    </div>
+
+                  </div>
+                </td>
+
+
+              </tr>
 
 
 
 
 
-
-                </div>
-
-
-              </table>
+                      </table>
 
 
-
-
-
-
-
+              
 
             </div>
 
-
-
           </div>
-
 
         </div>
 
@@ -437,14 +495,21 @@
 
 
 
-      <div id="product-list" class="col-md-8"></div>
+  
+
+
+  
+
+
+
+  <div id="product-list" class="col-md-8"></div>
 
 
 
 
 
 
-    </div>
+  </div>
 
 
 
